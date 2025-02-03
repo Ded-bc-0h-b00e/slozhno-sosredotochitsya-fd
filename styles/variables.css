@@ -1,4 +1,20 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root{ 
+      /* GLOBAL TEXT */
+  --hf-text-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --hf-text-lh: 95.7px;
+  --main-text-size:18px;
+  --main-text-weight-l: 400;
+  --main-text-weight-b: 700;
+  --mein-text-lh: 23.4px;
+  --main-text-ff: 'IBM Plex mono' , sans-serif;
+      /* Global color */
+   --main-text-color: #F1B2CE;
+   --main-title-color:#FF0070;
+   --main-title-box-color:#000028;
+   --header-text-color:#000028;
+   --hf-title-color:#DB00FF;
+   --shadow-color-title:  #FF0070;
+   --backgroung-img-d: url(/images/cover-image-dark.png);
+   --background-color-d:#000028;
+   
+}

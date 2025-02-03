@@ -1,5 +1,160 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  display: grid;
+  max-inline-size: 375px;
+  background-image: var( --backgroung-img-d);
+  background-color:var(--background-color-d) ; 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  align-content: center;
+  overflow-x: hidden;
 }
+.header__theme-menu-list {
+  display: grid;
+  position: absolute;
+  top: 75px;
+  right: 10px;
+  gap: 18px;
+}
+.header__theme-menu-button {
+  background-color: transparent;
+  border: none;
+  color: var(--shadow-color-title)
+}
+
+.header__theme-menu-item {
+  list-style: none;
+}
+.header {
+  display: grid;
+  position: relative;
+  width: 375px;
+  height: 668px;
+  padding: 0 10px 0 10px;
+}
+.main {
+  padding-top: 20px;
+}
+.main__title-decor {
+  min-block-size: 23px;
+  min-inline-size: 375px;
+  background-color: var(--main-title-color);
+}
+.main__title {
+  color: var(--shadow-color-title)
+}
+.main__text {
+  font-size: var(--main-text-size);
+  font-family:var(--main-text-ff) ;
+  line-height: var(--mein-text-lh);
+  color: var(--main-text-color);
+}
+.main__section {
+  max-inline-size: 375px;
+}
+.main__text-link {
+  text-decoration: none;
+  color: var(--main-text-color);
+  text-shadow: 2px 2px 0 var(--shadow-color-title);
+}
+.header__text-decor {
+  min-block-size: 117px;
+  min-inline-size: 355px;
+  background-color: var(--main-title-color);
+}
+.header__text-p {
+  font-size: var(--main-text-size);
+  font-family:var(--main-text-ff) ;
+  line-height: var(--mein-text-lh);
+  font-weight: var(--main-text-weight-b);
+}
+.header__title {
+  font-family: var(--main-text-ff);
+  font-weight: var(--main-text-weight-b);
+  font-size: var(--hf-text-size);
+  line-height: var(--hf-text-lh);
+  color: var(--hf-title-color);
+  text-shadow: 4px 4px 0 var(--shadow-color-title);
+  justify-self: center;
+  align-self: center;
+}
+.gallery__img {
+  display: grid;
+  grid-template-rows: repeat(5, 375px);
+}
+.gallery__image{
+  max-width: 375px;
+}
+.footer{
+  display: grid;
+  position: relative;
+  min-block-size: 668px;
+  min-inline-size: 375px;
+}
+.footer__title {
+  align-self: center;
+  justify-self: center;
+  font-family: var(--main-text-ff);
+  font-weight: var(--main-text-weight-b);
+  font-size: var(--hf-text-size);
+  line-height: var(--hf-text-lh);
+  color: var(--hf-title-color);
+  text-shadow: 4px 4px 0 var(--shadow-color-title);
+}
+.footer__REC-u {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border-top: 1px red solid;
+  border-right: 1px red solid;
+  inline-size: 25px;
+  block-size: 25px;
+}
+.footer__REC-d {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  border-bottom: 1px var(--shadow-color-title) solid;
+  border-left: 1px var(--shadow-color-title) solid;
+  inline-size: 25px;
+  block-size: 25px;
+}
+.header__REC-u {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border-top: 1px var(--shadow-color-title) solid;
+  border-right: 1px var(--shadow-color-title) solid;
+  inline-size: 25px;
+  block-size: 25px;
+}
+.header__REC-d {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  border-bottom: 1px var(--shadow-color-title) solid;
+  border-left: 1px var(--shadow-color-title) solid;
+  inline-size: 25px;
+  block-size: 25px;
+}
+.header__REC-text {
+  position: absolute;
+  top: 13px;
+  right: 42px;
+  color: var(--shadow-color-title);
+  font-size:var(--main-text-size) ;
+  font-family: var(--main-text-ff) ;
+  font-weight: var(--main-text-weight-l);
+}
+.main__section {
+  padding: 0 10px 25px 10px;
+}
+.galerry {
+  padding: 0 10px 25px 10px;
+}
+
+
+

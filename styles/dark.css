@@ -12,5 +12,64 @@
 }
 
 .theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+  background-image: var(--backgroung-img-d);
+  background-color: var(--background-color-d); 
 }
+.theme-dark .header__theme-menu-button {
+  color: var(--button_text-color-d)
+}
+.theme-dark .main__title-decor {
+  background-color: var(--main-box-color-d);
+}
+.theme-dark .main__title {
+  color: var(--shadow-color-title-d);
+}
+.theme-dark .main__text {
+  color: var(--main-text-color-d);
+}
+.theme-dark .main__text-link {
+  color: var(--main-text-color);
+  text-shadow: 2px 2px 0 var(--shadow-color-title-d);
+}
+.theme-dark .header__text-decor {
+  background-color: var(--main-box-color-d);
+}
+.theme-dark .header__title {
+  color: var(--hf-title-color-d);
+  text-shadow: 4px 4px 0 var(--shadow-color-title-d);
+}
+.theme-dark .footer__title {
+  color: var(--hf-title-color-d);
+  text-shadow: 4px 4px 0 var(--shadow-color-title-d);
+}
+.theme-dark .footer__REC-u {
+  border-top: 1px var(--shadow-color-title-d) solid;
+  border-right: 1px var(--shadow-color-title-d) solid;
+}
+.theme-dark .footer__REC-d {
+  border-bottom: 1px var(--shadow-color-title-d) solid;
+  border-left: 1px var(--shadow-color-title-d) solid;
+}
+.theme-dark .header__REC-u {
+  border-top: 1px var(--shadow-color-title-d) solid;
+  border-right: 1px var(--shadow-color-title-d) solid;
+}
+.theme-dark .header__REC-d {
+  border-bottom: 1px var(--shadow-color-title-d) solid;
+  border-left: 1px var(--shadow-color-title-d) solid;
+}
+.theme-dark .header__REC-text {
+  color: var(--shadow-color-title-d);
+}
+.theme-dark .header__text-p {
+  color: var(--main-title-text-color-d);
+}
+.theme-dark .main__title-sec {
+  color: var(--main-title-text-color-d);
+}
+.theme-dark .main__title-th {
+  color: var(--main-title-text-color-d);
+}
+
+
+

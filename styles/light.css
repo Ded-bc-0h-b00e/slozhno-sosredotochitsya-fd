@@ -12,5 +12,65 @@
 }
 
 .theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: var(--backgroung-img-l);
+  background-color: var(--background-color-l); 
+}
+.theme-light .header__theme-menu-button {
+  color: var(--button_text-color-l)
+}
+.theme-light .main__title-decor {
+  background-color: var(--main-title-color-l);
+}
+.theme-light .main__title {
+  color: var(--main-text-color-l);
+}
+.theme-light .main__text {
+  color: var(--main-text-color-l);
+}
+.theme-light .main__text-link {
+  color: var(--main-text-color-l);
+  text-shadow: 2px 2px 0 var(--shadow-color-title-l);
+}
+.theme-light .header__text-decor {
+  background-color: var(--main-title-color-l);
+}
+.theme-light .header__title {
+  color: var(--hf-title-color-l);
+  text-shadow: 4px 4px 0 var(--shadow-color-title-l);
+}
+.theme-light .footer__title {
+  color: var(--hf-title-color-l);
+  text-shadow: 4px 4px 0 var(--shadow-color-title-l);
+}
+.theme-light .footer__REC-u {
+  border-top: 1px var(--rec-angel) solid;
+  border-right: 1px var(--rec-angel) solid;
+}
+.theme-light .footer__REC-d {
+  border-bottom: 1px var(--rec-angel) solid;
+  border-left: 1px var(--rec-angel) solid;
+}
+.theme-light .header__REC-u {
+  border-top: 1px var(--rec-angel) solid;
+  border-right: 1px var(--rec-angel) solid;
+}
+.theme-light .header__REC-d {
+  border-bottom: 1px var(--rec-angel) solid;
+  border-left: 1px var(--rec-angel) solid;
+}
+.theme-light .header__REC-text {
+  display: none;
+}
+.theme-light .header__text-p {
+  color: var(--main-title-text-color-l);
+}
+.theme-light .main__title-sec {
+  color: var(--main-title-text-color-l);
+}
+.theme-light .main__title-th {
+  color: var(--main-title-text-color-l);
 }

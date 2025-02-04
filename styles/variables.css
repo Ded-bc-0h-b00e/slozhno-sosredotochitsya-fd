@@ -7,14 +7,26 @@
   --main-text-weight-b: 700;
   --mein-text-lh: 23.4px;
   --main-text-ff: 'IBM Plex mono' , sans-serif;
-      /* Global color */
-   --main-text-color: #F1B2CE;
-   --main-title-color:#FF0070;
-   --main-title-box-color:#000028;
-   --header-text-color:#000028;
-   --hf-title-color:#DB00FF;
-   --shadow-color-title:  #FF0070;
+      /* Dark color */
+   --main-text-color-d: #F1B2CE;
+   --main-box-color-d:#FF0070;
+   --main-title-text-color-d:#000028;
+   --header-text-color-d:#000028;
+   --hf-title-color-d:#DB00FF;
+   --main-title-text-color-d:#000028;
+   --shadow-color-title-d:#FF0070;
    --backgroung-img-d: url(/images/cover-image-dark.png);
    --background-color-d:#000028;
-   
+   --button_text-color-d: #FF0070;
+            /* Light Color */
+    --main-text-color-l: #353430;
+    --main-title-color-l:#FF8DCB;
+    --main-title-text-color-l:#353430;
+    --header-text-color-l:#353430;
+    --hf-title-color-l:#FFC2E6;
+    --shadow-color-title-l:  #FF8DCB;
+    --backgroung-img-l: url(/images/cover-image-light.png);
+    --background-color-l:#FFF1F7;
+    --button_text-color-l: #353430;
+    --rec-angel: #353430;
 }

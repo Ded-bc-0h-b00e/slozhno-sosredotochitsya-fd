@@ -6,13 +6,13 @@
 
 :root.theme-light {
   --main-text-color-l: #353430;
-  --main-title-color-l:#FF8DCB;
-  --main-title-text-color-l:#353430;
-  --header-text-color-l:#353430;
-  --hf-title-color-l:#FFC2E6;
-  --shadow-color-title-l:  #FF8DCB;
+  --main-title-color-l: #ff8dcb;
+  --main-title-text-color-l: #353430;
+  --header-text-color-l: #353430;
+  --hf-title-color-l: #ffc2e6;
+  --shadow-color-title-l: #ff8dcb;
   --backgroung-img-l: url(/images/cover-image-light.png);
-  --background-color-l:#FFF1F7;
+  --background-color-l: #fff1f7;
   --button_text-color-l: #353430;
   --rec-angel: #353430;
 }
@@ -28,7 +28,7 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-image: var(--backgroung-img-l);
-  background-color: var(--background-color-l); 
+  background-color: var(--background-color-l);
 }
 .theme-light .header__REC-u {
   border-top: 1px var(--rec-angel) solid;
@@ -46,7 +46,7 @@
   margin-top: 68px;
 }
 .theme-light .header__theme-menu-button {
-  color: var(--button_text-color-l)
+  color: var(--button_text-color-l);
 }
 .theme-light .header__theme-menu-list {
   top: 73px;
@@ -84,12 +84,12 @@
   color: var(--main-title-text-color-l);
 }
 .theme-light .header__theme-menu-button:hover {
-  border: 1px #32312D66 solid; 
+  border: 1px #32312d66 solid;
 }
 .theme-light .main__text-link:hover {
-  border-bottom: 1px solid #32312D;
+  border-bottom: 1px solid #32312d;
 }
-.theme-light .header__theme-menu-button:focus{
+.theme-light .header__theme-menu-button:focus {
   outline: none;
 }
 .theme-light .header__theme-menu-button:focus-visible {
@@ -99,27 +99,27 @@
   outline: none;
 }
 .theme-light .main__text-link:focus-visible {
-  border: 1px solid #353430;  
+  border: 1px solid #353430;
 }
 @media (width >= 768px) {
- .theme-light .header__text-p {
-    top: 32px
+  .theme-light .header__text-p {
+      top: 32px;
   }
   .theme-light .header__theme-menu-list {
-    top: 190px;
-    right: 20px;
+      top: 190px;
+      right: 20px;
   }
 }
-@media  (width >= 1024px) {
+@media (width >= 1024px) {
   .theme-light .header__theme-menu-list {
-    top: 135px;
-    right: 0px;
+      top: 135px;
+      right: 0px;
   }
   .theme-light .header__text-p {
-    top: 22px;
-    right: 20px;
+      top: 22px;
+      right: 20px;
   }
   .theme-light .header__title {
-    top: 57px;
+      top: 57px;
   }
 }

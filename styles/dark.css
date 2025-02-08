@@ -6,26 +6,25 @@
 
 :root.theme-dark {
   /* Цаета темной темы 100% */
-  --header-title: #DB00FF;
-  --header-title-shadow:#FF0070;
+  --header-title: #db00ff;
+  --header-title-shadow: #ff0070;
   --header-text: #000028;
-  --header-text-decoration: #FF0070;
-  --header-REC:#FF0070;
-  --header-button: #FF0070;
-  --header-button-border: #FF0070;
-  --main-title: #FF0070;
+  --header-text-decoration: #ff0070;
+  --header-REC: #ff0070;
+  --header-button: #ff0070;
+  --header-button-border: #ff0070;
+  --main-title: #ff0070;
   --main-title-second: #000028;
-  --main-title-docoration: #FF0070;
-  --main-text: #F1B2CE;
-  --main-link-shadow: #FF0070;
+  --main-title-docoration: #ff0070;
+  --main-text: #f1b2ce;
+  --main-link-shadow: #ff0070;
   --backgroung-img-d: url(/images/cover-image-dark.png);
-  --background-color-d:#000028;
-
+  --background-color-d: #000028;
 }
 
 .theme-dark .page {
   background-image: var(--backgroung-img-d);
-  background-color: var(--background-color-d); 
+  background-color: var(--background-color-d);
 }
 .theme-dark .header__theme-menu-button {
   color: var(--header-button);
@@ -48,7 +47,7 @@
 }
 .theme-dark .header__title {
   color: var(--header-title);
-  text-shadow: 2px 2px 0 var( --header-title-shadow);
+  text-shadow: 2px 2px 0 var(--header-title-shadow);
 }
 .theme-dark .footer__title {
   color: var(--header-title);
@@ -83,25 +82,26 @@
   color: var(--header-text);
 }
 .theme-dark .main__title-gal {
-  color: var(--main-title-second)
+  color: var(--main-title-second);
 }
 .theme-dark .header__theme-menu-button:hover {
-  border: 1px #FF007066 solid;
+  border: 1px #ff007066 solid;
 }
 .theme-dark .main__text-link:hover {
-  border-bottom: 1px solid #F1B2CE;
+  border-bottom: 1px solid #f1b2ce;
 }
-.theme-dark .header__theme-menu-button:focus{
+.theme-dark .header__theme-menu-button:focus {
   outline: none;
 }
 .theme-dark .header__theme-menu-button:focus-visible {
-  border-bottom: 1px #FF0070 solid;
+  border-bottom: 1px #ff0070 solid;
 }
 .theme-dark .main__text-link:focus {
   outline: none;
 }
 .theme-dark .main__text-link:focus-visible {
-  border: 1px solid #F1B2CE;  
+  border: 1px solid #f1b2ce;
 }
+
 
 

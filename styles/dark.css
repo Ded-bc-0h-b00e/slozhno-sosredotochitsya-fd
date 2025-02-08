@@ -79,5 +79,20 @@
 .theme-dark .header__theme-menu-button:hover {
   border: 1px #FF007066 solid;
 }
+.theme-dark .main__text-link:hover {
+  border-bottom: 1px solid #F1B2CE;
+}
+.theme-dark .header__theme-menu-button:focus{
+  outline: none;
+}
+.theme-dark .header__theme-menu-button:focus-visible {
+  border-bottom: 1px #FF0070 solid;
+}
+.theme-dark .main__text-link:focus {
+  outline: none;
+}
+.theme-dark .main__text-link:focus-visible {
+  border: 1px solid #F1B2CE;  
+}
 
 

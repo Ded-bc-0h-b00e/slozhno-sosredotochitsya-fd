@@ -86,6 +86,21 @@
 .theme-light .header__theme-menu-button:hover {
   border: 1px #32312D66 solid; 
 }
+.theme-light .main__text-link:hover {
+  border-bottom: 1px solid #32312D;
+}
+.theme-light .header__theme-menu-button:focus{
+  outline: none;
+}
+.theme-light .header__theme-menu-button:focus-visible {
+  border-bottom: 1px #353430 solid;
+}
+.theme-light .main__text-link:focus {
+  outline: none;
+}
+.theme-light .main__text-link:focus-visible {
+  border: 1px solid #353430;  
+}
 @media (width >= 768px) {
  .theme-light .header__text-p {
     top: 32px

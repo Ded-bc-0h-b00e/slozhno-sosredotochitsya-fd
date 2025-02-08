@@ -5,10 +5,16 @@
 */
 
 :root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --main-text-color-d: #F1B2CE;
+  --main-box-color-d:#FF0070;
+  --main-title-text-color-d:#000028;
+  --header-text-color-d:#000028;
+  --hf-title-color-d:#DB00FF;
+  --main-title-text-color-d:#000028;
+  --shadow-color-title-d:#FF0070;
+  --backgroung-img-d: url(/images/cover-image-dark.png);
+  --background-color-d:#000028;
+  --button_text-color-d: #FF0070;
 }
 
 .theme-dark .page {
@@ -36,11 +42,11 @@
 }
 .theme-dark .header__title {
   color: var(--hf-title-color-d);
-  text-shadow: 4px 4px 0 var(--shadow-color-title-d);
+  text-shadow: 2px 2px 0 var(--shadow-color-title-d);
 }
 .theme-dark .footer__title {
   color: var(--hf-title-color-d);
-  text-shadow: 4px 4px 0 var(--shadow-color-title-d);
+  text-shadow: 2px 2px 0 var(--shadow-color-title-d);
 }
 .theme-dark .footer__REC-u {
   border-top: 1px var(--shadow-color-title-d) solid;
@@ -70,6 +76,8 @@
 .theme-dark .main__title-th {
   color: var(--main-title-text-color-d);
 }
-
+.theme-dark .header__theme-menu-button:hover {
+  border: 1px #FF007066 solid;
+}
 
 

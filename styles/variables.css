@@ -3,30 +3,9 @@
   --hf-text-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --hf-text-lh: 95.7px;
   --main-text-size:18px;
-  --main-text-weight-l: 400;
-  --main-text-weight-b: 700;
+  --main-text-weight-l: normal;
+  --main-text-weight-b: bold;
   --mein-text-lh: 23.4px;
-  --main-text-ff: 'IBM Plex mono' , sans-serif;
-      /* Dark color */
-   --main-text-color-d: #F1B2CE;
-   --main-box-color-d:#FF0070;
-   --main-title-text-color-d:#000028;
-   --header-text-color-d:#000028;
-   --hf-title-color-d:#DB00FF;
-   --main-title-text-color-d:#000028;
-   --shadow-color-title-d:#FF0070;
-   --backgroung-img-d: url(/images/cover-image-dark.png);
-   --background-color-d:#000028;
-   --button_text-color-d: #FF0070;
-            /* Light Color */
-    --main-text-color-l: #353430;
-    --main-title-color-l:#FF8DCB;
-    --main-title-text-color-l:#353430;
-    --header-text-color-l:#353430;
-    --hf-title-color-l:#FFC2E6;
-    --shadow-color-title-l:  #FF8DCB;
-    --backgroung-img-l: url(/images/cover-image-light.png);
-    --background-color-l:#FFF1F7;
-    --button_text-color-l: #353430;
-    --rec-angel: #353430;
+  --main-text-ff: 'IBM Plex mono', sans-serif;
+
 }

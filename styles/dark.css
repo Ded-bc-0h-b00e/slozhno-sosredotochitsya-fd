@@ -4,10 +4,6 @@
   переключая тему
 */
 
-:root.theme-dark {
-
-}
-
 .theme-dark .page {
   background-image: var(--backgroung-img-d);
   background-color: var(--background-color-d);

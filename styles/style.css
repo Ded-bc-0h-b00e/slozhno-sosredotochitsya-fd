@@ -1,5 +1,4 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
   display: grid;
   grid-template-columns: 100vw;
@@ -41,8 +40,8 @@
   position: relative;
   align-self: start;
   justify-self: end;
-  right: 40px;
-  top: 10px;
+  padding-top: 10px;
+  padding-right: 60px;
 }
 .header__REC-text::before {
   font-size: var(--main-text-size);
@@ -52,7 +51,6 @@
   position: absolute;
   justify-self: end;
   line-height: 25px;
-  right: -11px;
 }
 .header__REC-text::after {
   position: absolute;
@@ -61,21 +59,24 @@
   border-radius: 50%;
   inline-size: 0.5rem;
   block-size: 0.5rem;
-  background: var(--shadow-color-title-d);
-  box-shadow: 0 0 4px 2px var(--shadow-color-title-d);
-  top: 8px;
-  left: 22px;
+  background: var(--header-REC);
+  box-shadow: 0 0 4px 2px var(--header-REC);
+  top: 19px;
+  left: 44px;
 }
-
+.header__theme-menu {
+    position: absolute;
+    justify-self: end;
+    top: 75px;
+    right: 10px;
+    margin-bottom: 20px;
+}
 .header__theme-menu-list {
   display: grid;
-  position: relative;
-  justify-self: end;
+  justify-self: flex-end;
   gap: 10px;
-  right: 0px;
-  top: 10px;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 .header__theme-menu-item {
   list-style: none;
@@ -98,29 +99,31 @@
   font-size: var(--main-text-size);
   line-height: var(--mein-text-lh);
   font-weight: var(--main-text-weight-b);
-  height: 117px;
+  min-height: min-content;
+  height: max-content;
+  margin: 0;
+}
+.header__text {
+    min-height: min-content;
 }
 .header__title {
+    display: grid;
   font-family: var(--main-text-ff);
   font-weight: var(--main-text-weight-b);
   font-size: var(--hf-text-size);
   line-height: var(--hf-text-lh);
-  position: relative;
   justify-self: center;
-  align-self: center;
-  bottom: 20px;
-  left: 1px;
-  margin: 0px;
-}
-.header__text-decor {
+  align-self: end;
+  padding-top: 95px;
+  padding-bottom: 55px;
   margin: 0;
 }
 .main {
   display: grid;
   grid-template-columns: 100%;
   padding: 0 10px 0 10px;
-  gap: 35px;
-  padding-bottom: 43px;
+  gap: 29px;
+  padding-bottom: 40px;
 }
 .main__title {
   font-family: var(--main-text-ff);
@@ -135,7 +138,12 @@
   font-size: var(--main-text-size);
   line-height: var(--mein-text-lh);
   font-weight: var(--main-text-weight-l);
+  margin: 0;
   margin-top: 10px;
+  margin-bottom: 20px;
+}
+.main__title-fr {
+    margin-bottom: 5px;
 }
 .main__title-th {
   font-family: var(--main-text-ff);
@@ -157,16 +165,20 @@
 }
 .gallery__image {
   width: 100%;
+  object-position: center;
   object-fit: cover;
 }
 .galerry__img {
   display: grid;
-  gap: 10px;
+  gap: 12.5px;
+  margin-top: 0px;
 }
 .gallery {
   display: grid;
+  gap: 9.5px;
   position: relative;
   grid-template-columns: 100%;
+  margin-top: 0px;
 }
 .main__title-gal {
   font-family: var(--main-text-ff);
@@ -174,9 +186,7 @@
   line-height: var(--mein-text-lh);
   font-weight: var(--main-text-weight-b);
   position: relative;
-  bottom: 5px;
   margin: 0;
-  margin-bottom: 4px;
 }
 .footer {
   display: grid;
@@ -209,7 +219,9 @@
   }
   .header__title {
       justify-self: start;
-      bottom: 75px;
+      padding-top: 0;
+      padding-bottom: 10px;
+      bottom: 0;
   }
   .header__REC-u {
       top: 20px;
@@ -223,24 +235,24 @@
       position: relative;
       align-self: start;
       justify-self: end;
-      right: 60px;
-      top: 20px;
+      right: 22px;
+      top: 10px;
   }
   .header__theme-menu-list {
-      right: 20px;
-      top: 13px;
+    position: relative;
+      right: 10px;
+      top: 115px;
   }
   .header__text-p {
       position: relative;
       justify-self: end;
-      right: 20px;
-      bottom: 5px;
-      height: 117px;
+      margin-right: 20px;
+      top: 50px;
+      margin-top: 100px;
       width: 364px;
   }
   .main {
-      padding: 0 10px 0 10px;
-      padding-bottom: 43px;
+      padding: 0 10px 40px 10px;
       gap: 0;
   }
   .main__section-fr {
@@ -255,29 +267,28 @@
   }
   .main__title {
       position: relative;
-      top: 5px;
-      left: 2px;
+      top: 0px;
       padding: 0;
       margin-bottom: 20px;
       height: 71px;
       width: 236px;
   }
   .title__one {
-      top: 20px;
+      top: 22.5px;
       left: 10px;
   }
   .main__text-fr {
       position: relative;
       width: calc(100% - 280px);
       align-self: flex-end;
-      bottom: 70px;
+      bottom: 67px;
       padding-right: 15px;
   }
   .main__section-sec {
       position: relative;
       display: flex;
       flex-direction: column;
-      inline-size: calc(100% - 10px);
+      inline-size: calc(100% - 20px);
       justify-content: start;
       bottom: 60px;
   }
@@ -290,7 +301,7 @@
       align-self: flex-end;
       justify-self: start;
       margin-right: 10px;
-      bottom: 70px;
+      bottom: 67px;
   }
   .t-d {
       position: relative;
@@ -308,6 +319,8 @@
   }
   .main__section-th {
       display: grid;
+      position: relative;
+      top: 3px;
       grid-template-columns: min-content minmax(472px, max-content);
       inline-size: calc(100% - 20px);
       gap: 20px;
@@ -316,19 +329,20 @@
       padding-left: 10px;
   }
   .main__section-text-th {
-      padding-top: 5px;
+      padding-top: 0px;
       padding-right: 10px;
   }
   .gallery {
       display: grid;
       width: 100%;
+      gap:0;
       margin-left: 10px;
       margin-right: 20px;
       margin-bottom: 20px;
   }
   .main__title-gal {
-      margin-top: 66px;
-      margin-bottom: 15px;
+      margin-top: 63px;
+      margin-bottom: 20px;
       margin-right: 20px;
   }
   .galerry__img {
@@ -362,6 +376,9 @@
       grid-column: 2/4;
       grid-row: 3/4;
   }
+  .footer__title {
+    margin-top:10px ;
+  }
 }
 @media (width >= 1024px) {
   .page {
@@ -374,10 +391,11 @@
       padding: 0;
   }
   .header__title {
+    position: relative;
+    bottom: 55px;
       font-size: 157px;
       line-height: 129.53px;
       justify-self: start;
-      bottom: 45px;
   }
   .header__REC-u {
       top: 20px;
@@ -391,13 +409,15 @@
       position: relative;
       align-self: start;
       justify-self: end;
-      right: 60px;
-      top: 20px;
+      right: 22px;
+      top: 10px;
   }
   .header__theme-menu {
-      position: relative;
+      position: absolute;
+      top: 19px;
       justify-self: center;
-      bottom: 117px;
+      right: 38.7%;
+      margin-bottom: 0;
   }
   .header__theme-menu-list {
       position: relative;
@@ -408,14 +428,14 @@
   .header__text-p {
       position: relative;
       justify-self: end;
-      right: 20px;
-      bottom: 0px;
+      bottom: 50px;
+      margin-top: 0px;
       height: 71px;
       min-width: 491px;
   }
   .main {
-      padding: 0 10px 0 10px;
-      padding-bottom: 43px;
+      padding: 0 10px 20px 10px;
+      min-width:calc(100%-1024px) ;
       gap: 0;
   }
   .main__section-fr {
@@ -430,22 +450,20 @@
   }
   .main__title {
       position: relative;
-      top: 5px;
-      left: 2px;
       padding: 0;
       margin-bottom: 20px;
       height: 71px;
       min-width: 314.96px;
   }
   .title__one {
-      top: 20px;
+      top: 18px;
       left: 10px;
   }
   .main__text-fr {
       position: relative;
       width: calc(100% - 355px);
       align-self: flex-end;
-      bottom: 70px;
+      bottom: 72px;
       padding-right: 10px;
   }
   .main__section-sec {
@@ -461,7 +479,7 @@
       grid-template-columns: repeat(3, 315px);
       gap: 20px;
       left: 10px;
-      bottom: 21.5px;
+      bottom: 27px;
   }
   .sec-one {
       position: relative;
@@ -475,7 +493,7 @@
       position: relative;
       align-self: flex-end;
       justify-self: start;
-      bottom: 100px;
+      bottom: 103px;
   }
   .main__section-th {
       display: grid;
@@ -483,10 +501,8 @@
       grid-template-columns: min-content minmax(472px, max-content);
       inline-size: calc(100% - 20px);
       gap: 20px;
-      justify-items: start;
-      justify-content: start;
       padding-left: 10px;
-      bottom: 25px;
+      top: -30px;
   }
   .main__section-text-th {
       padding-top: 5px;
@@ -498,11 +514,11 @@
       width: 100%;
       margin-left: 10px;
       margin-right: 20px;
-      margin-bottom: 20px;
+      margin-bottom: 15px;
       bottom: 25px;
   }
   .main__title-gal {
-      margin-top: 66px;
+      margin-top: 55px;
       margin-bottom: 15px;
       margin-right: 20px;
   }
@@ -510,6 +526,7 @@
       gap: 20px;
       grid-template-columns: repeat(3, calc(100% / 3 - 15px));
       grid-template-rows: min-content min-content max-content;
+      padding-top: 5px;
       margin-right: 15px;
   }
   .gallery__image {
@@ -543,7 +560,7 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
-      bottom: 25px;
+      bottom: 0px;
       margin: 0;
   }
   .footer__title {

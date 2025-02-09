@@ -36,7 +36,10 @@
   border-bottom: 1px var(--rec-angel) solid;
   border-left: 1px var(--rec-angel) solid;
 }
-.theme-light .header__REC-text {
+.theme-light .header__REC-text::after {
+  display: none;
+}
+.theme-light .header__REC-text::before {
   display: none;
 }
 .theme-light .header__text-p {

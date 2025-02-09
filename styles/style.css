@@ -170,7 +170,7 @@
 }
 .galerry__img {
   display: grid;
-  gap: 12.5px;
+  gap: 15px;
   margin-top: 0px;
 }
 .gallery {

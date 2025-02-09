@@ -438,6 +438,7 @@
   .main {
       padding: 0 10px 20px 10px;
       min-width:calc(100%-1024px) ;
+      bottom: 0;
       gap: 0;
   }
   .main__section-fr {
@@ -458,7 +459,7 @@
       min-width: 314.96px;
   }
   .title__one {
-      top: 18px;
+      top: 15px;
       left: 10px;
   }
   .main__text-fr {

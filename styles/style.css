@@ -647,6 +647,9 @@
         outline: none;
         border: 1px solid var(--focus-link);
       }
+      .header__theme-menu-button_type_dark {
+        border: 1px solid var(--focus-link)
+     }
 }
 @media (prefers-color-scheme: light) {
   .page {
@@ -727,4 +730,8 @@
      outline: none;
      border: 1px solid var(--focus-link);
    }
+   .header__theme-menu-button_type_light {
+      border: 1px solid var(--focus-link)
+   }
+   
 }

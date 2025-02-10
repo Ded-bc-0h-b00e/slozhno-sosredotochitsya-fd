@@ -1,16 +1,13 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 .page {
-  display: grid;
-  grid-template-columns: 100vw;
-  margin-left: 10px;
   min-height: 668px;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   align-content: center;
-  overflow-x: hidden;
-  margin: 0;
+  background-image: var(--backgroung-img);
+  background-color: var(--background-color);
 }
 .header {
   display: grid;
@@ -90,6 +87,7 @@
   line-height: 18px;
   width: 70px;
   height: 26px;
+  color: var(--header-button);
 }
 .header__text-p {
   font-family: var(--main-text-ff);
@@ -569,13 +567,6 @@
   }
 }
 @media (prefers-color-scheme: dark) {
-     .page {
-        background-image: var(--backgroung-img);
-        background-color: var(--background-color);
-      }
-       .header__theme-menu-button {
-        color: var(--header-button);
-      }
        .main__title-decor {
         background-color: var(--main-title-docoration);
       }

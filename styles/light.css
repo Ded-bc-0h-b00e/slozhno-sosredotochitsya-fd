@@ -18,7 +18,7 @@
   --hover-link: #353430;
   --focus-button: #32312D66;
   --hover-button: #353430;
-  --backgroung-img: url(/images/cover-image-light.png);
+  --backgroung-img: url(./images/cover-image-light.png);
   --background-color: #fff1f7;
 }
 @media (prefers-color-scheme: light) {
@@ -36,7 +36,7 @@
   --hover-link: #353430;
   --focus-button: #32312D66;
   --hover-button: #353430;
-  --backgroung-img: url(/images/cover-image-light.png);
+  --backgroung-img: url(./images/cover-image-light.png);
   --background-color: #fff1f7;
 }
 }

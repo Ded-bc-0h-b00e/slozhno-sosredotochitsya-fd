@@ -5,28 +5,44 @@
 */
 
 :root.theme-light {
-  --main-text-color-l: #353430;
-  --main-title-color-l: #ff8dcb;
-  --main-title-text-color-l: #353430;
-  --header-text-color-l: #353430;
-  --hf-title-color-l: #ffc2e6;
-  --shadow-color-title-l: #ff8dcb;
-  --backgroung-img-l: url(/images/cover-image-light.png);
-  --background-color-l: #fff1f7;
-  --button_text-color-l: #353430;
-  --rec-angel: #353430;
+  --header-button: #353430;
+  --header-text-decoration: #ff8dcb;
+  --header-title: #ffc2e6;
+  --header-title-shadow: #ff8dcb;
+  --header-REC: #353430;
+  --main-text: #353430;
+  --main-title: #353430;
+  --main-title-docoration: #ff8dcb;
+  --main-title-second: #353430;
+  --focus-link: #353430;
+  --hover-link: #353430;
+  --focus-button: #32312D66;
+  --hover-button: #353430;
+  --backgroung-img: url(/images/cover-image-light.png);
+  --background-color: #fff1f7;
 }
 @media (prefers-color-scheme: light) {
 :root {
-  --main-text-color-l: #353430;
-  --main-title-color-l: #ff8dcb;
-  --main-title-text-color-l: #353430;
-  --header-text-color-l: #353430;
-  --hf-title-color-l: #ffc2e6;
-  --shadow-color-title-l: #ff8dcb;
-  --backgroung-img-l: url(/images/cover-image-light.png);
-  --background-color-l: #fff1f7;
-  --button_text-color-l: #353430;
-  --rec-angel: #353430;
+  --header-button: #353430;
+  --header-text-decoration: #ff8dcb;
+  --header-title: #ffc2e6;
+  --header-title-shadow: #ff8dcb;
+  --header-REC: #353430;
+  --main-text: #353430;
+  --main-title: #353430;
+  --main-title-docoration: #ff8dcb;
+  --main-title-second: #353430;
+  --focus-link: #353430;
+  --hover-link: #353430;
+  --focus-button: #32312D66;
+  --hover-button: #353430;
+  --backgroung-img: url(/images/cover-image-light.png);
+  --background-color: #fff1f7;
 }
+}
+.theme-light .header__REC-text::after {
+  display: none;
+}
+.theme-light .header__REC-text::before {
+  display: none;
 }

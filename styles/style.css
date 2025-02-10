@@ -573,8 +573,8 @@
 }
 @media (prefers-color-scheme: dark) {
      .page {
-        background-image: var(--backgroung-img-d);
-        background-color: var(--background-color-d);
+        background-image: var(--backgroung-img);
+        background-color: var(--background-color);
       }
        .header__theme-menu-button {
         color: var(--header-button);
@@ -635,19 +635,19 @@
         color: var(--main-title-second);
       }
        .header__theme-menu-button:hover {
-        border: 1px #ff007066 solid;
+        border: 1px var(--hover-button) solid;
       }
        .main__text-link:hover {
-        border-bottom: 1px solid #f1b2ce;
+        border-bottom: 1px solid var(--hover-link);
       }
        .header__theme-menu-button:focus {
         outline: none;
       }
        .header__theme-menu-button:focus-visible {
-        border-bottom: 1px #ff0070 solid;
+        border-bottom: 1px var(--focus-button) solid;
       }
        .main__text-link:focus {
         outline: none;
-        border: 1px solid #f1b2ce;
+        border: 1px solid var(--focus-link);
       }
 }

@@ -92,7 +92,7 @@
   height: 26px;
 }
 .header__theme-menu-button_type_dark {
-  border: 1px var(--shadow-color-title-d) solid;
+  border: 1px var(--header-button) solid;
 }
 .header__text-p {
   font-family: var(--main-text-ff);
@@ -570,4 +570,86 @@
       font-size: 157px;
       line-height: 129.53px;
   }
+}
+@media (prefers-color-scheme: dark) {
+     .page {
+        background-image: var(--backgroung-img-d);
+        background-color: var(--background-color-d);
+      }
+       .header__theme-menu-button {
+        color: var(--header-button);
+      }
+       .main__title-decor {
+        background-color: var(--main-title-docoration);
+      }
+       .main__title {
+        color: var(--main-title);
+      }
+       .main__text {
+        color: var(--main-text);
+      }
+       .main__text-link {
+        color: var(--main-text);
+        text-shadow: 2px 2px 0 var(--main-link-shadow);
+      }
+       .header__text-decor {
+        background-color: var(--header-text-decoration);
+      }
+       .header__title {
+        color: var(--header-title);
+        text-shadow: 2px 2px 0 var(--header-title-shadow);
+      }
+       .footer__title {
+        color: var(--header-title);
+        text-shadow: 2px 2px 0 var(--header-title-shadow);
+      }
+       .footer__REC-u {
+        border-top: 1px var(--header-REC) solid;
+        border-right: 1px var(--header-REC) solid;
+      }
+       .footer__REC-d {
+        border-bottom: 1px var(--header-REC) solid;
+        border-left: 1px var(--header-REC) solid;
+      }
+       .header__REC-u {
+        border-top: 1px var(--header-REC) solid;
+        border-right: 1px var(--header-REC) solid;
+      }
+       .header__REC-d {
+        border-bottom: 1px var(--header-REC) solid;
+        border-left: 1px var(--header-REC) solid;
+      }
+       .header__REC-text {
+        color: var(--header-REC);
+      }
+       .header__text-p {
+        color: var(--header-text);
+      }
+       .main__title-sec {
+        color: var(--header-text);
+      }
+       .main__title-th {
+        color: var(--header-text);
+      }
+       .main__title-gal {
+        color: var(--main-title-second);
+      }
+       .header__theme-menu-button:hover {
+        border: 1px #ff007066 solid;
+      }
+       .main__text-link:hover {
+        border-bottom: 1px solid #f1b2ce;
+      }
+       .header__theme-menu-button:focus {
+        outline: none;
+      }
+       .header__theme-menu-button:focus-visible {
+        border-bottom: 1px #ff0070 solid;
+      }
+       .main__text-link:focus {
+        outline: none;
+      }
+       .main__text-link:focus {
+        border: 1px solid #f1b2ce;
+      }
 }

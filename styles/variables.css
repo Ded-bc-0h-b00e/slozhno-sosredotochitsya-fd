@@ -7,19 +7,4 @@
   --main-text-weight-b: bold;
   --mein-text-lh: 23.4px;
   --main-text-ff: "IBM Plex mono", sans-serif;
-
-  --header-title: #db00ff;
-  --header-title-shadow: #ff0070;
-  --header-text: #000028;
-  --header-text-decoration: #ff0070;
-  --header-REC: #ff0070;
-  --header-button: #ff0070;
-  --header-button-border: #ff0070;
-  --main-title: #ff0070;
-  --main-title-second: #000028;
-  --main-title-docoration: #ff0070;
-  --main-text: #f1b2ce;
-  --main-link-shadow: #ff0070;
-  --backgroung-img-d: url(/images/cover-image-dark.png);
-  --background-color-d: #000028;
 }

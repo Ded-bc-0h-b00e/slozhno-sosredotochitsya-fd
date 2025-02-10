@@ -648,8 +648,6 @@
       }
        .main__text-link:focus {
         outline: none;
-      }
-       .main__text-link:focus {
         border: 1px solid #f1b2ce;
       }
 }

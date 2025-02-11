@@ -1,6 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 .page {
   min-height: 668px;
+  margin: 8;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

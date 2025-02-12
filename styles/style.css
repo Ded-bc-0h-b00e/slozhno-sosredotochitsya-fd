@@ -92,6 +92,7 @@
   width: 70px;
   height: 26px;
   color: var(--header-button);
+
 }
 .header__text-p {
   display: grid;
@@ -132,14 +133,14 @@
   outline: none;
 }
 .header__theme-menu-button:focus-visible {
-  border-bottom: 1px var(--focus-button) solid;
+  outline: 1px var(--focus-button) solid;
 }
 .header__theme-menu-button:hover {
   border: 1px var(--hover-button) solid;
 }
 .header__theme-menu-button_active {
   pointer-events: none;
-  border: 1px solid var(--focus-link);
+  border: 1px solid var(--header-button-border);
 }
 .main {
   display: grid;

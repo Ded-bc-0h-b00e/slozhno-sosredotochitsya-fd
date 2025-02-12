@@ -93,9 +93,6 @@
   height: 26px;
   color: var(--header-button);
 }
-.header__theme-menu-button_type_dark {
-  border: 1px solid var(--focus-link);
-}
 .header__text-p {
   display: grid;
   font-family: var(--main-text-ff);
@@ -139,6 +136,9 @@
 }
 .header__theme-menu-button:hover {
   border: 1px var(--hover-button) solid;
+}
+.header__theme-menu-button_active {
+  pointer-events: none
 }
 .main {
   display: grid;
@@ -657,5 +657,10 @@
     line-height: 129.53px;
     align-self: center;
     padding-top: 30px;
+  }
+}
+@media (prefers-color-scheme: dark) {
+   .header__theme-menu-button_type_dark {
+    border: 1px solid var(--focus-link);
   }
 }

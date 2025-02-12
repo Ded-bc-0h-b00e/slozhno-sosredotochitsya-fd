@@ -20,6 +20,6 @@
   --main-title-docoration: #ff0070;
   --main-text: #f1b2ce;
   --main-link-shadow: #ff0070;
-  --backgroung-img-d: url(../images/cover-image-dark.png);
-  --background-color-d: #000028;
+  --backgroung-img: url(../images/cover-image-dark.png);
+  --background-color: #000028;
 }

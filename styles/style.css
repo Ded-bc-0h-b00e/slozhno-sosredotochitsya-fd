@@ -138,7 +138,8 @@
   border: 1px var(--hover-button) solid;
 }
 .header__theme-menu-button_active {
-  pointer-events: none
+  pointer-events: none;
+  border: 1px solid var(--focus-link);
 }
 .main {
   display: grid;
@@ -657,10 +658,5 @@
     line-height: 129.53px;
     align-self: center;
     padding-top: 30px;
-  }
-}
-@media (prefers-color-scheme: dark) {
-   .header__theme-menu-button_type_dark {
-    border: 1px solid var(--focus-link);
   }
 }

@@ -1,7 +1,8 @@
 :root {
   /* GLOBAL TEXT */
-  --hf-text-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --hf-text-lh: 95.7px;
+  --header-text-size-mobile-tablet: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --header-text-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
+  --header-text-lh: 95.7px;
   --main-text-size: 18px;
   --main-text-weight-l: normal;
   --main-text-weight-b: bold;

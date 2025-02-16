@@ -40,9 +40,7 @@
       --background-color: #fff1f7;
   }
 }
-.theme-light .header__REC-text::after {
-  display: none;
-}
-.theme-light .header__REC-text::before {
+
+.theme-light .header__decorated-item {
   display: none;
 }

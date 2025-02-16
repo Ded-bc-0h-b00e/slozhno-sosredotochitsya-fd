@@ -22,8 +22,8 @@
   justify-self: end;
   inline-size: 25px;
   block-size: 25px;
-  border-top: 1px var(--header-REC) solid;
-  border-right: 1px var(--header-REC) solid;
+  border-top: 1px var(--header-decore) solid;
+  border-right: 1px var(--header-decore) solid;
 }
 .decorated-zone::after {
   position: relative;
@@ -32,15 +32,15 @@
   content: "";
   inline-size: 25px;
   block-size: 25px;
-  border-bottom: 1px var(--header-REC) solid;
-  border-left: 1px var(--header-REC) solid;
+  border-bottom: 1px var(--header-decore) solid;
+  border-left: 1px var(--header-decore) solid;
 }
 .header__decorated-item {
   position: absolute;
   justify-self: end;
   justify-items: end;
   align-items: start;
-  color: var(--header-REC);
+  color: var(--header-decore);
   padding: 10px;
 }
 .header__decorated-item::before {
@@ -59,8 +59,8 @@
   border-radius: 50%;
   inline-size: 9px;
   block-size: 9px;
-  background: var(--header-REC);
-  box-shadow: 0 0 4px 2px var(--header-REC);
+  background: var(--header-decore);
+  box-shadow: 0 0 4px 2px var(--header-decore);
   bottom: 17px;
   right: 9px;
 }
@@ -116,7 +116,7 @@
   outline: none;
 }
 .header__theme-menu-button:focus-visible {
-  outline: 1px var(--focus-button) solid;
+  border-bottom: 1px var(--focus-button) solid;
 }
 .header__theme-menu-button:hover {
   border: 1px var(--hover-button) solid;
@@ -517,6 +517,7 @@
   }
   .main_article-column-consitrate {
       position: relative;
+      padding-top: 25px;
       bottom: 73px;
   }
   .text__article {
@@ -564,9 +565,6 @@
   }
   .main__section {
     display: grid;
-  }
-  .main_article-column-consitrate {
-    padding-top: 25px;
   }
   .gallery {
       position: relative;

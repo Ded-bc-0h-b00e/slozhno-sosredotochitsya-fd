@@ -7,6 +7,7 @@
 :root.theme-light {
   --header-button: #353430;
   --header-text-decoration: #ff8dcb;
+  --header-text: #353430;
   --header-title: #ffc2e6;
   --header-title-shadow: #ff8dcb;
   --header-REC: #353430;
@@ -18,6 +19,7 @@
   --hover-link: #353430;
   --focus-button: #32312d66;
   --hover-button: #353430;
+  --main-link-shadow: #FF8DCB;
   --backgroung-img: url(../images/cover-image-light.png);
   --background-color: #fff1f7;
 }
@@ -25,6 +27,7 @@
   :root {
       --header-button: #353430;
       --header-text-decoration: #ff8dcb;
+      --header-text: #353430;
       --header-title: #ffc2e6;
       --header-title-shadow: #ff8dcb;
       --header-REC: #353430;
@@ -36,11 +39,16 @@
       --hover-link: #353430;
       --focus-button: #32312d66;
       --hover-button: #353430;
+      --main-link-shadow: #FF8DCB;
       --backgroung-img: url(../images/cover-image-light.png);
       --background-color: #fff1f7;
   }
+  .theme-auto .header__decorated-item {
+    display: none;
+  }
 }
-
 .theme-light .header__decorated-item {
   display: none;
 }
+
+

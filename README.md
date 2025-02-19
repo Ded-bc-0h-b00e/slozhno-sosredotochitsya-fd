@@ -1,1 +1,1 @@
-https://github.com/Ded-bc-0h-b00e/slozhno-sosredotochitsya-fd
+https://github.com/Ded-bc-0h-b00e/slozhno-sosredotochitsya-fdа

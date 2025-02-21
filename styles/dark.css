@@ -14,13 +14,13 @@
   --background-color: #000028;
   --focus-link: #ff0070;
   --hover-link: #f1b2ce;
-  --hover-button: #FF007066;
+  --hover-button: #ff007066;
   --focus-button: #ff0070;
   --header-decore: #ff0070;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --header-decore: #ff0070;
+      --header-decore: #ff0070;
       --header-title: #db00ff;
       --header-title-shadow: #ff0070;
       --header-text: #000028;
@@ -36,10 +36,11 @@
       --background-color: #000028;
       --focus-link: #ff0070;
       --hover-link: #f1b2ce;
-      --hover-button: #FF007066; 
+      --hover-button: #ff007066;
       --focus-button: #ff0070;
   }
 }
+
 
 
 

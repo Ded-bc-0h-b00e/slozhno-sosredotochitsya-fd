@@ -17,11 +17,12 @@
   --main-title-second: #353430;
   --focus-link: #353430;
   --hover-link: #353430;
-  --focus-button: #32312d66;
-  --hover-button: #353430;
+  --focus-button: #353430;
+  --hover-button: #32312D66;
   --main-link-shadow: #FF8DCB;
   --backgroung-img: url(../images/cover-image-light.png);
   --background-color: #fff1f7;
+  --header-decore: #353430;
 }
 @media (prefers-color-scheme: light) {
   :root {
@@ -37,11 +38,12 @@
       --main-title-second: #353430;
       --focus-link: #353430;
       --hover-link: #353430;
-      --focus-button: #32312d66;
-      --hover-button: #353430;
+      --focus-button: #353430;
+      --hover-button: #32312D66;
       --main-link-shadow: #FF8DCB;
       --backgroung-img: url(../images/cover-image-light.png);
       --background-color: #fff1f7;
+      --header-decore: #353430;
   }
   .theme-auto .header__decorated-item {
     display: none;
